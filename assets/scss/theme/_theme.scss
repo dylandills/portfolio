@@ -14,7 +14,7 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-	--first-color: hsl(14, 80%, 50%);
+	--first-color: hsl(190, 75%, 39%);
    --black-color: hsl(0, 0%, 18%);
    --black-color-light: hsl(0, 0%, 30%);
    --title-color: hsl(0, 0%, 95%);
@@ -23,8 +23,8 @@ body.dark-theme{
    --container-color: hsl(0, 0%, 12%);
 }
 
-/*========== 
-	Color changes in some parts of 
+/*==========
+	Color changes in some parts of
 	the website, in dark theme
 ==========*/
 .dark-theme{
@@ -33,15 +33,15 @@ body.dark-theme{
 	}
 	& .section__title-1::after,
 	& .section__title-2::after{
-		background-color: hsla(14, 70%, 50%, .2);
+		background-color: hsla(190, 75%, 39%, .2);
 	}
 	& :is(.home__arrow, .home__line, .about__line){
 		filter: none;
 	}
 	& .home__description b{
 		background: linear-gradient(90deg,
-						hsla(14, 80%, 50%, .3),
-						hsla(14, 80%, 50%, 0));
+						hsla(190, 75%, 39%, .3),
+						hsla(190, 75%, 39%, 0));
 	}
 	& :is(.button__ghost, .services__icon i){
 		color: var(--white-color);
